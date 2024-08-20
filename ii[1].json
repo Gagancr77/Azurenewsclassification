@@ -1,0 +1,1109 @@
+{
+  "projectFileVersion": "2022-05-01",
+  "stringIndexType": "Utf16CodeUnit",
+  "metadata": {
+    "projectKind": "CustomSingleLabelClassification",
+    "storageInputContainerName": "trainingnews",
+    "settings": {},
+    "projectName": "newsclassification",
+    "multilingual": false,
+    "description": "Categorizing news articles based on their headlines and short descriptions",
+    "language": "en-us"
+  },
+  "assets": {
+    "projectKind": "CustomSingleLabelClassification",
+    "classes": [
+      { "category": "POLITICS" },
+      { "category": "ENTERTAINMENT" },
+      { "category": "BUSINESS" },
+      { "category": "SPORTS" },
+      { "category": "HEALTH" },
+      { "category": "TECH" },
+      { "category": "TRAVEL" },
+      { "category": "SCIENCE" }
+      
+    ],
+    "documents": [
+      {
+        "location": "document1.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "POLITICS" }
+      },
+      {
+        "location": "document2.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "ENTERTAINMENT" }
+      },
+      {
+        "location": "document3.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "BUSINESS" }
+      },
+      {
+        "location": "document4.txt",
+        "language": "en",
+        "dataset": "test",
+        "class": { "category": "SPORTS" }
+      },
+      {
+        "location": "document5.txt",
+        "language": "en",
+        "dataset": "test",
+        "class": { "category": "HEALTH" }
+      },
+      {
+        "location": "document6.txt",
+        "language": "en",
+        "dataset": "test",
+        "class": { "category": "TECH" }
+      },
+      {
+        "location": "document7.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "TRAVEL" }
+      },
+      {
+        "location": "document8.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "SCIENCE" }
+      },
+      
+     
+     
+      {
+        "location": "document12.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "POLITICS" }
+      },
+      {
+        "location": "document13.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "ENTERTAINMENT" }
+      },
+      {
+        "location": "document14.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "BUSINESS" }
+      },
+      {
+        "location": "document15.txt",
+        "language": "en",
+        "dataset": "test",
+        "class": { "category": "SPORTS" }
+      },
+      {
+        "location": "document16.txt",
+        "language": "en",
+        "dataset": "test",
+        "class": { "category": "HEALTH" }
+      },
+      {
+        "location": "document17.txt",
+        "language": "en",
+        "dataset": "test",
+        "class": { "category": "TECH" }
+      },
+      {
+        "location": "document18.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "TRAVEL" }
+      },
+      {
+        "location": "document19.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "SCIENCE" }
+      },
+    
+      
+      {
+        "location": "document23.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "POLITICS" }
+      },
+      {
+        "location": "document24.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "ENTERTAINMENT" }
+      },
+      {
+        "location": "document25.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "BUSINESS" }
+      },
+      {
+        "location": "document26.txt",
+        "language": "en",
+        "dataset": "test",
+        "class": { "category": "SPORTS" }
+      },
+      {
+        "location": "document27.txt",
+        "language": "en",
+        "dataset": "test",
+        "class": { "category": "HEALTH" }
+      },
+      {
+        "location": "document28.txt",
+        "language": "en",
+        "dataset": "test",
+        "class": { "category": "TECH" }
+      },
+      {
+        "location": "document29.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "TRAVEL" }
+      },
+      {
+        "location": "document30.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "SCIENCE" }
+      },
+    
+      
+      {
+        "location": "document34.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "ENTERTAINMENT" }
+      }
+      ,
+      {
+        "location": "document35.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "ENTERTAINMENT" }
+      },
+      {
+        "location": "document36.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "ENTERTAINMENT" }
+      },
+      {
+        "location": "document37.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "ENTERTAINMENT" }
+      },
+      {
+        "location": "document38.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "ENTERTAINMENT" }
+      },
+      {
+        "location": "document39.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "ENTERTAINMENT" }
+      },
+      {
+        "location": "document40.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "ENTERTAINMENT" }
+      },
+      {
+        "location": "document41.txt",
+        "language": "en",
+        "dataset": "test",
+        "class": { "category": "ENTERTAINMENT" }
+      },
+      {
+        "location": "document42.txt",
+        "language": "en",
+        "dataset": "test",
+        "class": { "category": "ENTERTAINMENT" }
+      },
+      {
+        "location": "document43.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "ENTERTAINMENT" }
+      },
+      {
+        "location": "document44.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "ENTERTAINMENT" }
+      },
+      {
+        "location": "document45.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "ENTERTAINMENT" }
+      },
+      {
+        "location": "document46.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "ENTERTAINMENT" }
+      }
+      ,
+      {
+        "location": "document47.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "POLITICS" }
+      },
+      {
+        "location": "document48.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "POLITICS" }
+      },
+      {
+        "location": "document49.txt",
+        "language": "en",
+        "dataset": "test",
+        "class": { "category": "POLITICS" }
+      },
+      {
+        "location": "document50.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "POLITICS" }
+      },
+      {
+        "location": "document51.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "POLITICS" }
+      },
+      {
+        "location": "document52.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "POLITICS" }
+      },
+      {
+        "location": "document53.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "POLITICS" }
+      },
+      {
+        "location": "document54.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "POLITICS" }
+      },
+      {
+        "location": "document55.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "POLITICS" }
+      },
+      {
+        "location": "document56.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "POLITICS" }
+      },
+      {
+        "location": "document57.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "POLITICS" }
+      },
+      {
+        "location": "document58.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "POLITICS" }
+      },
+      {
+        "location": "document59.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "POLITICS" }
+      },
+      {
+        "location": "document60.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "BUSINESS" }
+      },
+      {
+        "location": "document61.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "BUSINESS" }
+      },
+      {
+        "location": "document62.txt",
+        "language": "en",
+        "dataset": "test",
+        "class": { "category": "BUSINESS" }
+      },
+      {
+        "location": "document63.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "BUSINESS" }
+      },
+      {
+        "location": "document64.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "BUSINESS" }
+      },
+      {
+        "location": "document65.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "BUSINESS" }
+      },
+      {
+        "location": "document66.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "BUSINESS" }
+      },
+      {
+        "location": "document67.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "BUSINESS" }
+      },
+      {
+        "location": "document68.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "BUSINESS" }
+      },
+      {
+        "location": "document69.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "BUSINESS" }
+      },
+      {
+        "location": "document70.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "BUSINESS" }
+      },
+      {
+        "location": "document71.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "BUSINESS" }
+      },
+      {
+        "location": "document72.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "BUSINESS" }
+      },
+      {
+        "location": "document73.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "SPORTS" }
+      },
+      {
+        "location": "document74.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "SPORTS" }
+      },
+      {
+        "location": "document75.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "SPORTS" }
+      },
+      {
+        "location": "document76.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "SPORTS" }
+      },
+      {
+        "location": "document77.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "SPORTS" }
+      },
+      {
+        "location": "document78.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "SPORTS" }
+      },
+      {
+        "location": "document79.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "SPORTS" }
+      },
+      {
+        "location": "document80.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "SPORTS" }
+      },
+      {
+        "location": "document81.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "SPORTS" }
+      },
+      {
+        "location": "document82.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "SPORTS" }
+      },
+      {
+        "location": "document83.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "SPORTS" }
+      },
+      {
+        "location": "document84.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "SPORTS" }
+      },
+      {
+        "location": "document85.txt",
+        "language": "en",
+        "dataset": "test",
+        "class": { "category": "SPORTS" }
+      },
+      {
+        "location": "document86.txt",
+        "language": "en",
+        "dataset": "test",
+        "class": { "category": "SPORTS" }
+      },
+        {
+          "location": "document87.txt",
+          "language": "en",
+          "dataset": "train",
+          "class": { "category": "SPORTS" }
+        },
+        {
+          "location": "document88.txt",
+          "language": "en",
+          "dataset": "train",
+          "class": { "category": "HEALTH" }
+        },
+        {
+          "location": "document89.txt",
+          "language": "en",
+          "dataset": "train",
+          "class": { "category": "HEALTH" }
+        },
+        {
+          "location": "document90.txt",
+          "language": "en",
+          "dataset": "train",
+          "class": { "category": "HEALTH" }
+        },
+        {
+          "location": "document91.txt",
+          "language": "en",
+          "dataset": "train",
+          "class": { "category": "HEALTH" }
+        },
+        {
+          "location": "document92.txt",
+          "language": "en",
+          "dataset": "train",
+          "class": { "category": "HEALTH" }
+        },
+        {
+          "location": "document93.txt",
+          "language": "en",
+          "dataset": "train",
+          "class": { "category": "HEALTH" }
+        },
+        {
+          "location": "document94.txt",
+          "language": "en",
+          "dataset": "train",
+          "class": { "category": "HEALTH" }
+        },
+        {
+          "location": "document95.txt",
+          "language": "en",
+          "dataset": "train",
+          "class": { "category": "HEALTH" }
+        },
+        {
+          "location": "document96.txt",
+          "language": "en",
+          "dataset": "train",
+          "class": { "category": "HEALTH" }
+        },
+        {
+          "location": "document97.txt",
+          "language": "en",
+          "dataset": "train",
+          "class": { "category": "HEALTH" }
+        },
+        {
+          "location": "document98.txt",
+          "language": "en",
+          "dataset": "train",
+          "class": { "category": "HEALTH" }
+        },
+        {
+          "location": "document99.txt",
+          "language": "en",
+          "dataset": "train",
+          "class": { "category": "HEALTH" }
+        },
+        {
+          "location": "document100.txt",
+          "language": "en",
+          "dataset": "train",
+          "class": { "category": "HEALTH" }
+        },
+        {
+          "location": "document101.txt",
+          "language": "en",
+          "dataset": "train",
+          "class": { "category": "HEALTH" }
+        },
+        {
+          "location": "document102.txt",
+          "language": "en",
+          "dataset": "test",
+          "class": { "category": "HEALTH" }
+        }
+        ,
+      {
+        "location": "document103.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "TECH" }
+      },
+      {
+        "location": "document104.txt",
+        "language": "en",
+        "dataset": "test",
+        "class": { "category": "TECH" }
+      },
+      {
+        "location": "document105.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "TECH" }
+      },
+      {
+        "location": "document106.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "TECH" }
+      },
+      {
+        "location": "document107.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "TECH" }
+      },
+      {
+        "location": "document108.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "TECH" }
+      },
+      {
+        "location": "document109.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "TECH" }
+      },
+      {
+        "location": "document110.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "TECH" }
+      },
+      {
+        "location": "document111.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "TECH" }
+      },
+      {
+        "location": "document112.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "TECH" }
+      },
+      {
+        "location": "document113.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "TECH" }
+      },
+      {
+        "location": "document114.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "TECH" }
+      },
+      {
+        "location": "document115.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "TECH" }
+      },
+      {
+        "location": "document116.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "TECH" }
+      },
+      {
+        "location": "document117.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "TECH" }
+      },
+      {
+        "location": "document118.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "TRAVEL" }
+      },
+      {
+        "location": "document119.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "TRAVEL" }
+      },
+      {
+        "location": "document120.txt",
+        "language": "en",
+        "dataset": "test",
+        "class": { "category": "TRAVEL" }
+      },
+      {
+        "location": "document121.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "TRAVEL" }
+      },
+      {
+        "location": "document122.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "TRAVEL" }
+      },
+      {
+        "location": "document123.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "TRAVEL" }
+      },
+      {
+        "location": "document124.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "TRAVEL" }
+      },
+      {
+        "location": "document125.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "TRAVEL" }
+      },
+      {
+        "location": "document126.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "TRAVEL" }
+      },
+      {
+        "location": "document127.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "TRAVEL" }
+      },
+      {
+        "location": "document128.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "TRAVEL" }
+      },
+      {
+        "location": "document129.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "TRAVEL" }
+      },
+      {
+        "location": "document130.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "TRAVEL" }
+      },
+      {
+        "location": "document131.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "TRAVEL" }
+      },
+      {
+        "location": "document132.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "TRAVEL" }
+      },
+      {
+        "location": "document133.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "SCIENCE" }
+      },
+      {
+        "location": "document134.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "SCIENCE" }
+      },
+      {
+        "location": "document135.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "SCIENCE" }
+      },
+      {
+        "location": "document136.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "SCIENCE" }
+      },
+      {
+        "location": "document137.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "SCIENCE" }
+      },
+      {
+        "location": "document138.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "SCIENCE" }
+      },
+      {
+        "location": "document139.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "SCIENCE" }
+      },
+      {
+        "location": "document140.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "SCIENCE" }
+      },
+      {
+        "location": "document141.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "SCIENCE" }
+      },
+      {
+        "location": "document142.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "SCIENCE" }
+      },
+      {
+        "location": "document143.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "SCIENCE" }
+      },
+      {
+        "location": "document144.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "SCIENCE" }
+      },
+      {
+        "location": "document145.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "SCIENCE" }
+      },
+      {
+        "location": "document146.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "SCIENCE" }
+      },
+      {
+        "location": "document147.txt",
+        "language": "en",
+        "dataset": "test",
+        "class": { "category": "SCIENCE" }
+      },
+      {
+        "location": "document148.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "HEALTH" }
+      },
+      {
+        "location": "document149.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "HEALTH" }
+      },
+      {
+        "location": "document150.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "HEALTH" }
+      },
+      {
+        "location": "document151.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "SCIENCE" }
+      },
+      {
+        "location": "document152.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "SCIENCE" }
+      },
+      {
+        "location": "document153.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "SCIENCE" }
+      },
+      {
+        "location": "document154.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "TECH" }
+      },
+      {
+        "location": "document155.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "TECH" }
+      },
+      {
+        "location": "document156.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "TECH" }
+      },
+      {
+        "location": "document157.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "BUSINESS" }
+      },
+      {
+        "location": "document158.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "BUSINESS" }
+      },
+      {
+        "location": "document159.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "BUSINESS" }
+      },
+      {
+        "location": "document160.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "BUSINESS" }
+      },
+      {
+        "location": "document161.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "ENTERTAINMENT" }
+      },
+      {
+        "location": "document162.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "ENTERTAINMENT" }
+      },
+      {
+        "location": "document163.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "ENTERTAINMENT" }
+      },
+      {
+        "location": "document164.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "SPORTS" }
+      },
+      {
+        "location": "document165.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "SPORTS" }
+      },
+      {
+        "location": "document166.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "SPORTS" }
+      },
+      {
+        "location": "document167.txt",
+        "language": "en",
+        "dataset": "train",
+        "class": { "category": "SPORTS" }
+      },
+      {
+        "location": "document168.txt",
+        "language": "en",
+        "dataset": "tEST",
+        "class": { "category": "BUSINESS" }
+      }
+      ,
+      {
+        "location": "document169.txt",
+        "language": "en",
+        "dataset": "tEST",
+        "class": { "category": "BUSINESS" }
+      }
+      ,
+      {
+        "location": "document170.txt",
+        "language": "en",
+        "dataset": "tEST",
+        "class": { "category": "BUSINESS" }
+      },
+      {
+        "location": "document171.txt",
+        "language": "en",
+        "dataset": "test",
+        "class": { "category": "BUSINESS" }
+      },
+      {
+        "location": "document172.txt",
+        "language": "en",
+        "dataset": "test",
+        "class": { "category": "ENTERTAINMENT" }
+      }
+      ,
+      {
+        "location": "document173.txt",
+        "language": "en",
+        "dataset": "test",
+        "class": { "category": "ENTERTAINMENT" }
+      }
+      ,
+      {
+        "location": "document174.txt",
+        "language": "en",
+        "dataset": "test",
+        "class": { "category": "ENTERTAINMENT" }
+      }
+      ,
+      {
+        "location": "document175.txt",
+        "language": "en",
+        "dataset": "test",
+        "class": { "category": "POLITICS" }
+      },
+      {
+        "location": "document176.txt",
+        "language": "en",
+        "dataset": "test",
+        "class": { "category": "POLITICS" }
+      },
+      {
+        "location": "document177.txt",
+        "language": "en",
+        "dataset": "test",
+        "class": { "category": "POLITICS" }
+      },
+      {
+        "location": "document178.txt",
+        "language": "en",
+        "dataset": "test",
+        "class": { "category": "POLITICS" }
+      },
+      {
+        "location": "document179.txt",
+        "language": "en",
+        "dataset": "test",
+        "class": { "category": "SCIENCE" }
+      },
+      {
+        "location": "document180.txt",
+        "language": "en",
+        "dataset": "test",
+        "class": { "category": "SCIENCE" }
+      },
+      {
+        "location": "document181.txt",
+        "language": "en",
+        "dataset": "test",
+        "class": { "category": "SCIENCE" }
+      },
+      {
+        "location": "document182.txt",
+        "language": "en",
+        "dataset": "test",
+        "class": { "category": "SCIENCE" }
+      },
+      {
+        "location": "document183.txt",
+        "language": "en",
+        "dataset": "test",
+        "class": { "category": "TRAVEL" }
+      },
+      {
+        "location": "document184.txt",
+        "language": "en",
+        "dataset": "test",
+        "class": { "category": "TRAVEL" }
+      },
+      {
+        "location": "document185.txt",
+        "language": "en",
+        "dataset": "test",
+        "class": { "category": "TRAVEL" }
+      },
+      {
+        "location": "document186.txt",
+        "language": "en",
+        "dataset": "test",
+        "class": { "category": "TRAVEL" }
+      }
+      
+      
+      
+    ]
+  }
+}
